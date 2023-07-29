@@ -1,0 +1,12 @@
+FishAgePredictioNet: A multi-stage fish age prediction framework based on segmentation, deep convolution network, and gaussian process regression with otolith images
+
+Fish ageing is a vital component of fisheries management as it enables the evaluation of fish population status and supports the development of sustainable management strategies.
+However, traditional methods of age determination through otolith analysis by experts are resource-intensive and time-consuming. 
+Therefore, there is a growing demand for more cost-effective and automated techniques to determine fish age accurately.
+In accordance with this purpose, we proposed a multi-stage framework for fish age prediction with otolith images. 
+First, otoliths in images were detected using the Faster Region-based Convolutional Neural Networks (RCNN) model, which includes 8 convolution layers, and the detected otoliths were clipped. 
+Later, using a pre-trained neural network based on the transfer learning approach, deep features were extracted separately from the right and left otolith images, and all the obtained features were combined.
+Finally, these combined features are given to the input of the gaussian process regression model. 
+To evaluate the performance of the proposed architecture, 4109 images of right and left otoliths belonging to the Greenland halibut (flatfish, Reinhardtius hippoglossoides) were used.
+In the experimental studies, the proposed architecture produced 1.83 MSE, 0.98 R-squared, 1.35 RMSE, and 10.29 MAPE scores. As a result, it was observed that the proposed model achieved superior performance compared to previous studies.
+Our findings show that our FishAgePredictioNet system could help experts predict fish age based on otolith images.
