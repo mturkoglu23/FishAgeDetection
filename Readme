@@ -1,4 +1,4 @@
-FishAgePredictioNet: A multi-stage fish age prediction framework based on segmentation, deep convolution network, and gaussian process regression with otolith images
+/b FishAgePredictioNet: A multi-stage fish age prediction framework based on segmentation, deep convolution network, and gaussian process regression with otolith images
 
 Fish ageing is a vital component of fisheries management as it enables the evaluation of fish population status and supports the development of sustainable management strategies.
 However, traditional methods of age determination through otolith analysis by experts are resource-intensive and time-consuming. 
